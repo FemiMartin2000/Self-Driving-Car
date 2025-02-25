@@ -1,55 +1,46 @@
-# Self-Driving-Car
+## Self-Driving-Car
  This project aims to develop and train a machine learning model to assist in the development of a self-driving car system. It consists of two main components: data processing and model training.
 ---
 
-## 📁 Project Structure
-
-```
-├── data_processing_and_regression.ipynb   # Data exploration, processing, and basic regression analysis
-├── self_driving_model_training.ipynb      # Model architecture and training using TensorFlow
-└── README.md                              # Project overview and instructions
-```
+Sure! Here are the contents of both files:
 
 ---
 
-## 📊 Notebooks Overview
+### **README.md**
 
-### 1. `data_processing_and_regression.ipynb`
-- Splits the dataset into training and testing sets.
-- Visualizes data distributions with histograms.
-- Performs baseline regression to evaluate initial error metrics.
 
-### 2. `self_driving_model_training.ipynb`
-- Builds and trains a deep learning model using TensorFlow (v1 compatibility mode).
-- Includes model evaluation and prediction phases.
+# Data Processing and Self-Driving Car Model Training
 
----
+## Overview
+This project consists of two Jupyter notebooks:
+1. **data_processing_and_regression.ipynb**: Handles data preprocessing, regression analysis, and visualization.
+2. **self_driving_model_training.ipynb**: Trains a deep learning model for self-driving car simulation using image data.
 
-## 🛠️ Installation & Setup
+## Requirements
+See `requirements.txt` for the list of Python dependencies.
 
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/your-username/self-driving-car-project.git
-   cd self-driving-car-project
+## Usage
+1. Install dependencies:
    ```
-
-2. Install dependencies:
-   ```bash
    pip install -r requirements.txt
    ```
 
-3. Run the notebooks:
-   - Open Jupyter Notebook or JupyterLab.
-   - Navigate to the desired notebook and execute the cells.
+2. Run the data processing notebook:
+   ```
+   jupyter notebook data_processing_and_regression.ipynb
+   ```
 
----
+3. Train the self-driving car model:
+   ```
+   jupyter notebook self_driving_model_training.ipynb
+   ```
 
-## 📈 Requirements
+## Project Structure
+- `data_processing_and_regression.ipynb`: Data loading, cleaning, visualization, and regression model implementation.
+- `self_driving_model_training.ipynb`: Neural network model creation, training, and evaluation for self-driving car tasks.
 
-- Python 3.x  
-- TensorFlow (v1.x compatibility)  
-- Matplotlib  
-- SciPy  
-
----
+## Notes
+- Ensure you have the required datasets placed in the appropriate directories as mentioned in the notebooks.
+- GPU usage is recommended for faster training of the self-driving model.
+```
 
