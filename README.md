@@ -3,39 +3,48 @@ This project aims to develop and train a machine learning model to assist in the
 ---
 
 
+## Overview  
 
-# Data Processing and Self-Driving Car Model Training
+The project includes two Jupyter notebooks:  
 
-## Overview
-This project consists of two Jupyter notebooks:
-1. **data_processing_and_regression.ipynb**: Handles data preprocessing, regression analysis, and visualization.
-2. **self_driving_model_training.ipynb**: Trains a deep learning model for self-driving car simulation using image data.
+- **`data_processing_and_regression.ipynb`**: Handles data preprocessing, regression analysis, and visualization.  
+- **`self_driving_model_training.ipynb`**: Trains a deep learning model for self-driving car simulation using image data.  
 
-## Requirements
-See `requirements.txt` for the list of Python dependencies.
+## Requirements  
 
-## Usage
-1. Install dependencies:
-   ```
-   pip install -r requirements.txt
-   ```
+Ensure you have all required dependencies installed. You can find them listed in `requirements.txt`.  
 
-2. Run the data processing notebook:
-   ```
+### Installation  
+
+To install the necessary dependencies, run:  
+
+```bash
+pip install -r requirements.txt
+```
+
+## Usage  
+
+1. **Run the data processing notebook**  
+
+   ```bash
    jupyter notebook data_processing_and_regression.ipynb
-   ```
+   ```  
 
-3. Train the self-driving car model:
-   ```
+2. **Train the self-driving car model**  
+
+   ```bash
    jupyter notebook self_driving_model_training.ipynb
-   ```
+   ```  
 
-## Project Structure
-- `data_processing_and_regression.ipynb`: Data loading, cleaning, visualization, and regression model implementation.
-- `self_driving_model_training.ipynb`: Neural network model creation, training, and evaluation for self-driving car tasks.
 
-## Notes
-- Ensure you have the required datasets placed in the appropriate directories as mentioned in the notebooks.
-- GPU usage is recommended for faster training of the self-driving model.
+
+## Notes  
+
+- Ensure you have the required datasets placed in the appropriate directories as specified in the notebooks.  
+   You can access Sully Chen's self-driving car datasets on GitHub:
+   Repository: SullyChen/driving-datasets 
+- **GPU usage is recommended** for faster training of the self-driving model.  
+
+---
 
 
